@@ -2,24 +2,24 @@
 h1 {
     display: flex;
     justify-content: center;
-    color: #000000; /* Color del texto en hexadecimal */
-    font-size: 62px; /* Tamaño del texto en píxeles */
+    color: #000000; 
+    font-size: 62px; 
   
   }
 
   h2 {
     display: flex;
     justify-content: center;
-    color: #000000; /* Color del texto en hexadecimal */
-    font-size: 30px; /* Tamaño del texto en píxeles */
+    color: #000000; 
+    font-size: 30px; 
    
   }
 
   h3 {
     display: flex;
     justify-content: center;
-    color: #000000; /* Color del texto en hexadecimal */
-    font-size: 30px; /* Tamaño del texto en píxeles */
+    color: #000000; 
+    font-size: 30px; 
    
   }
 
@@ -28,11 +28,11 @@ h1 {
   /*linea para seaparar textos*/
 
   .custom-line {
-    width: 50%; /* Ancho de la línea */
-    border: none; /* Quita el borde por defecto */
-    height: 3px; /* Grosor de la línea */
-    background-color: #ff7e5f; /* Color de la línea */
-    margin: 20px auto; /* Espacio alrededor de la línea y centrado */
+    width: 50%; 
+    border: none;
+    height: 3px; 
+    background-color: #ff7e5f;
+    margin: 20px auto; 
 }
 
 
@@ -40,19 +40,19 @@ h1 {
 
 /*imagen del titulo*/
 .header {
-    text-align: center; /* Alinea la imagen al centro */
-    padding: 20px 0; /* Espacio interno para separación */
+    text-align: center; 
+    padding: 20px 0; 
 }
 
 .header img {
-    max-width: 100%; /* Asegura que la imagen no sea más ancha que su contenedor */
-    height: auto; /* Permite que la altura se ajuste automáticamente */
+    max-width: 100%; 
+    height: auto; 
 }
 
 .container {
-    width: 80%; /* Ancho del contenido principal */
-    margin: 0 auto; /* Centra el contenido horizontalmente */
-    padding: 20px; /* Espacio interno para separación */
+    width: 80%; 
+    margin: 0 auto; 
+    padding: 20px; 
 
 }
 
@@ -64,26 +64,26 @@ h1 {
   /*contenedores y recuadros*/
   .container {
     display: flex;
-    justify-content: center; /* Centra horizontalmente los elementos hijos */
-    align-items: flex-start; /* Centra verticalmente los elementos hijos */
-    height: 20vh; /* Toma el 100% del alto de la ventana */
-    margin-top: 0vh; /* Mueve el contenedor hacia arriba 10% del alto de la ventana */
-    text-align: center,justify; /* Alineación del texto al centro */
+    justify-content: center;
+    align-items: flex-start; 
+    height: 20vh; 
+    margin-top: 0vh; 
+    text-align: center,justify; 
 }
 
 .box {
-    background: linear-gradient(to right, #e5ff005e, #00a2ff73); /* Degradado de colores */
-    border-radius: 10px; /* Bordes redondeados */
+    background: linear-gradient(to right, #e5ff005e, #00a2ff73); 
+    border-radius: 10px; 
     padding: 15px;
-    width: 40%; /* Ancho del recuadro */
-    text-align: center; /* Alineación del texto al centro */
-    transition: transform 0.3s ease, background-color 0.3s ease; /* Transición para el efecto hover */
+    width: 40%; 
+    text-align: center; 
+    transition: transform 0.3s ease, background-color 0.3s ease; 
 }
 
 .box:hover{
-    background-color: #ff7e5f; /* Cambia a un color sólido al pasar el mouse */
-    transform: scale(1.1); /* Agranda el recuadro */
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Agrega una sombra para el efecto de separación */
+    background-color: #ff7e5f; 
+    transform: scale(1.1); 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
 }
 
 
@@ -91,48 +91,48 @@ h1 {
 /* contenedor transparente para organizar texto*/
 .container3 {
     display: flex;
-    justify-content: center; /* Centra horizontalmente los elementos hijos */
-    align-items: flex-start; /* Centra verticalmente los elementos hijos */
-    height: 40vh; /* Toma el 100% del alto de la ventana */
-    margin-top: 20vh; /* Mueve el contenedor hacia arriba 10% del alto de la ventana */
-    text-align: center; /* Alineación del texto al centro */
+    justify-content: center; 
+    align-items: flex-start; 
+    height: 40vh; 
+    margin-top: 20vh; 
+    text-align: center; 
 }
 .box3 {
-    background: linear-gradient(to right, #ffffff00, #ffffff00); /* Degradado de colores */
-    border-radius: 10px; /* Bordes redondeados */
+    background: linear-gradient(to right, #ffffff00, #ffffff00); 
+    border-radius: 10px; 
     padding: 20px;
-    width: 30%; /* Ancho del recuadro */
-    text-align: center; /* Alineación del texto al centro */
-    transition: transform 0.3s ease, background-color 0.3s ease; /* Transición para el efecto hover */
+    width: 30%; 
+    text-align: center; 
+    transition: transform 0.3s ease, background-color 0.3s ease; 
 }
 
 .box3:hover{
-    background-color: #ffffff; /* Cambia a un color sólido al pasar el mouse */
-    transform: scale(1.1); /* Agranda el recuadro */
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Agrega una sombra para el efecto de separación */
+    background-color: #ffffff; 
+    transform: scale(1.1); 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
 }
 
 
 /*contenedor para centrar gif*/
 .container4 {
     display: flex;
-    justify-content: center; /* Centra horizontalmente los elementos hijos */
-    align-items: flex-start; /* Centra verticalmente los elementos hijos */
-    height: 10vh; /* Toma el 100% del alto de la ventana */
-    margin-top: 3vh; /* Mueve el contenedor hacia arriba 10% del alto de la ventana */
-    text-align: center; /* Alineación del texto al centro */
+    justify-content: center; 
+    align-items: flex-start; 
+    height: 10vh; 
+    margin-top: 3vh; 
+    text-align: center; 
 }
 .box4 {
     
-    border-radius: 10px; /* Bordes redondeados */
+    border-radius: 10px; 
     padding: 20px;
-    width: 30%; /* Ancho del recuadro */
-    text-align: center; /* Alineación del texto al centro */
+    width: 30%; 
+    text-align: center; 
 }
 
 .gif {
-    width: 150px; /* Ancho deseado del GIF */
-    height: auto; /* Altura automática según el ancho */
+    width: 150px; 
+    height: auto; 
 }
 
 /*___________________________________________________________________*/
@@ -153,19 +153,19 @@ h1 {
     flex-direction: column;
     justify-content: flex-start; 
     align-items: center;
-    width: 350px;
-    height: 350px;
+    width: 330px;
+    height: 330px;
     background-color: azure;
     border-radius: 20px;
     margin: 30px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     padding: 15px;
-    transition: transform 0.3s ease, background-color 0.3s ease; /* Transición para el efecto hover */
+    transition: transform 0.3s ease, background-color 0.3s ease; 
 }
 .box_continuos:hover{
-    background-color: #ffffff; /* Cambia a un color sólido al pasar el mouse */
-    transform: scale(1.1); /* Agranda el recuadro */
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Agrega una sombra para el efecto de separación */
+    background-color: #ffffff; 
+    transform: scale(1.1); 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
 }
 
 
@@ -174,44 +174,44 @@ h1 {
 /*contenedor para tabla*/
 .container_table {
     display: flex;
-    justify-content: center; /* Centra horizontalmente los elementos hijos */
-    align-items: flex-start; /* Centra verticalmente los elementos hijos */
-    height: 25vh; /* Toma el 100% del alto de la ventana */
-    margin-top: 0vh; /* Mueve el contenedor hacia arriba 10% del alto de la ventana */
-    text-align: center; /* Alineación del texto al centro */
+    justify-content: center; 
+    align-items: flex-start; 
+    height: 25vh; 
+    margin-top: 0vh; 
+    text-align: center; 
 }
 
 .box_table {
-    background: linear-gradient(to right, #a5fa0894, #660bf888); /* Degradado de colores */
-    border-radius: 10px; /* Bordes redondeados */
+    background: linear-gradient(to right, #a5fa0894, #660bf888); 
+    border-radius: 10px; 
     padding: 20px;
-    width: 50%; /* Ancho del recuadro */
-    text-align: center; /* Alineación del texto al centro */
-    transition: transform 0.3s ease, background-color 0.3s ease; /* Transición para el efecto hover */
+    width: 50%; 
+    text-align: center; 
+    transition: transform 0.3s ease, background-color 0.3s ease; 
 }
 .box_table:hover{
-    background-color: #ffffff; /* Cambia a un color sólido al pasar el mouse */
-    transform: scale(1.1); /* Agranda el recuadro */
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Agrega una sombra para el efecto de separación */
+    background-color: #ffffff;
+    transform: scale(1.1); 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
 }
 
 /*contenedor para "como atacaria la problematica"*/
 .container5 {
     display: flex;
-    justify-content: center; /* Centra horizontalmente los elementos hijos */
-    align-items: flex-end; /* Centra verticalmente los elementos hijos */
-    height: auto; /* Toma el 100% del alto de la ventana */
-    margin-top: 45vh; /* Mueve el contenedor hacia arriba 10% del alto de la ventana */
-    text-align: center; /* Alineación del texto al centro */
+    justify-content: center; 
+    align-items: flex-end; 
+    height: auto; 
+    margin-top: 60vh; 
+    text-align: center; 
 }
 
 .box5 {
-    background: linear-gradient(to right, #808080fb, #04cff39d); /* Degradado de colores */
-    border-radius: 10px; /* Bordes redondeados */
+    background: linear-gradient(to right, #808080fb, #04cff39d); 
+    border-radius: 10px; 
     padding: 20px;
-    width: 65%; /* Ancho del recuadro */
-    text-align: center; /* Alineación del texto al centro */
-    height: 950px; /* Toma el 100% del alto de la ventana */
+    width: 65%; 
+    text-align: center; 
+    height: autopx; 
 
 
 }
@@ -231,34 +231,34 @@ body {
 }
 
 .content {
-    padding-bottom: 80px; /* Espacio inferior para que el contenido no se superponga con el footer */
+    padding-bottom: 80px; 
 }
 
 .large-box {
-    height: 500px; /* Ajusta según tu contenido */
-    background-color: #f0f0f0; /* Color de fondo para distinguirlo */
+    height: 500px; 
+    background-color: #f0f0f0; 
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
 }
 
 .button {
-    margin-top: 100px; /* Ajusta la separación del botón */
+    margin-top: 100px; 
 }
 .bottom-footer {
-    background: linear-gradient(to right, #00e0fd, #0004fafa); /* Degradado de colores */
-    color: rgb(255, 255, 255); /* Color del texto blanco */
-    width: 100%; /* Ocupa todo el ancho de la página */
-    text-align: center; /* Alineación del texto al centro */
-    padding: 20px; /* Espacio interno del contenedor */
-    position: absolute; /* Posiciona el footer de manera absoluta */
-    bottom: 20; /* Posiciona el footer al final de la página */
-    left: 0; /* Alinea el footer al inicio de la página */
-    transform: translateY(1400px); /* Mueve el footer hacia abajo */
+    background: linear-gradient(to right, #00e0fd, #0004fafa); 
+    color: rgb(255, 255, 255); 
+    width: 100%; 
+    text-align: center; 
+    padding: 20px; 
+    position: absolute; 
+    bottom: 20; 
+    left: 0; 
+    transform: translateY(600px); 
 }
 
 .box_footer {
-    border-radius: 10px; /* Bordes redondeados */
+    border-radius: 10px; 
     padding: 20px;
 }
 
@@ -272,31 +272,31 @@ body {
 /* Estilos para la decoración del texto */
 
 text-decoration-prueba {
-    color: #333; /* Color del texto en hexadecimal */
-    font-size: 18px; /* Tamaño del texto en píxeles */
-    font-family: 'Times New Roman', Times, serif, sans-serif; /* Fuente del texto */
-    line-height: 1.5; /* Espaciado entre líneas */
-    text-align: center; /* Alineación del texto al centro */
-    text-decoration: none; /* Decoración del texto (subrayado, etc.) */
+    color: #333; 
+    font-size: 18px; 
+    font-family: 'Times New Roman', Times, serif, sans-serif; 
+    line-height: 1.5; 
+    text-align: center; 
+    text-decoration: none; 
 }
 
 .text-decoration{
-    color: #000000; /* Color del texto en hexadecimal */
-    font-size: 15px; /* Tamaño del texto en píxeles */
-    text-align: center; /* Alineación del texto al centro */
+    color: #000000; 
+    font-size: 15px; 
+    text-align: center; 
     
 }
 
 .text-decoration2{
-    color: #000000; /* Color del texto en hexadecimal */
-    font-size: 20px; /* Tamaño del texto en píxeles */
-    text-align: center; /* Alineación del texto al centro */
+    color: #000000; 
+    font-size: 20px; 
+    text-align: center; 
    
 }
 .text-decoration3{
-    color: #000000; /* Color del texto en hexadecimal */
-    font-size: 17px; /* Tamaño del texto en píxeles */
-    text-align: center; /* Alineación del texto al centro */
+    color: #000000; 
+    font-size: 17px; 
+    text-align: center; 
    
 }
 
@@ -306,9 +306,9 @@ text-decoration-prueba {
 }
 
 .text-decoration_footer{
-    color: #ffffff; /* Color del texto en hexadecimal */
-    font-size: 20px; /* Tamaño del texto en píxeles */
-    text-align: center; /* Alineación del texto al centro */
+    color: #ffffff; 
+    font-size: 20px; 
+    text-align: center; 
    
 }
 
@@ -328,19 +328,19 @@ body {
 
 .gif-container {
     position: fixed;
-    top: 0px; /* Distancia desde la parte superior */
-    left: 0px; /* Distancia desde la izquierda */
-    z-index: 9999; /* Capa superior */
+    top: 0px; 
+    left: 0px; 
+    z-index: 9999; 
 }
 
 .gif {
-    width: 150px; /* Ancho deseado del GIF */
-    height: auto; /* Altura automática según el ancho */
+    width: 150px; 
+    height: auto; 
 }
 
 .gif2 {
-    width: 140px; /* Ancho deseado del GIF */
-    height: 140px; /* Altura automática según el ancho */
+    width: 130px; 
+    height: 125px; 
 
 }
 
@@ -350,17 +350,17 @@ body {
 
 /* Estilos para el encabezado */
 .top-header {
-    background-color: #000000; /* Color de fondo del encabezado */
-    color: #fc03be; /* Color de texto */
-    padding: 10px 20px; /* Espaciado interno */
+    background-color: #000000; 
+    color: #fc03be; 
+    padding: 10px 20px; 
     display: flex;
-    justify-content: space-between; /* Alineación de contenido */
-    align-items: center; /* Alineación vertical */
+    justify-content: space-between; 
+    align-items: center; 
 }
 
 .gif_sup{
-    width: 90px; /* Ancho deseado del GIF */
-    height: 90px; /* Altura automática según el ancho */
+    width: 90px; 
+    height: 90px; 
 }
 
 
@@ -368,24 +368,24 @@ body {
 
 /*Menu superior */
 .main-menu ul {
-    list-style-type: none; /* Quita viñetas de la lista */
+    list-style-type: none; 
     margin: 0;
     padding: 0;
     display: flex;
 }
 
 .main-menu ul li {
-    margin-right: 20px; /* Espacio entre elementos del menú */
+    margin-right: 20px; 
 }
 
 .main-menu ul li a {
-    color: #0077ff; /* Color de texto de los enlaces */
-    text-decoration: none; /* Quita subrayado de los enlaces */
-    padding: 10px; /* Espaciado interno de los enlaces */
+    color: #0077ff; 
+    text-decoration: none; 
+    padding: 10px; 
 }
 
 .main-menu ul li a:hover {
-    background-color: #555; /* Color de fondo al pasar el mouse */
+    background-color: #555; 
 }
 
 
@@ -479,20 +479,20 @@ body {
     position: fixed;
     bottom: 0;
     right: 0;
-    width: 5%; /* Ancho del recuadro */
-    height: 10vh; /* Altura del contenedor */
-    background-color: rgba(255, 255, 255, 0); /* Fondo semitransparente */
-    padding: 10px; /* Espacio interno */
+    width: 5%; 
+    height: 10vh; 
+    background-color: rgba(255, 255, 255, 0); 
+    padding: 10px; 
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
 }
 
 .box_button {
-    background-color: #0892ee00; /* Color de fondo del recuadro */
-    color: #ffffff; /* Color de texto */
-    border-radius: 10px; /* Bordes redondeados */
+    background-color: #0892ee00; 
+    color: #ffffff; 
+    border-radius: 10px; 
     padding: 20px;
-    text-align: center; /* Alineación del texto al centro */
-    width: 100%; /* Ancho del recuadro */
+    text-align: center; 
+    width: 100%; 
 }
