@@ -254,7 +254,7 @@ body {
     position: absolute; /* Posiciona el footer de manera absoluta */
     bottom: 20; /* Posiciona el footer al final de la página */
     left: 0; /* Alinea el footer al inicio de la página */
-    transform: translateY(350px); /* Mueve el footer hacia abajo */
+    transform: translateY(1400px); /* Mueve el footer hacia abajo */
 }
 
 .box_footer {
