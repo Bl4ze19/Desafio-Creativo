@@ -12,6 +12,15 @@ h1 {
     justify-content: center;
     color: #000000; 
     font-size: 30px; 
+    text-shadow: 
+    1px 1px 0px white, 
+    -1px 1px 0px white, 
+    1px -1px 0px white, 
+    -1px -1px 0px white, 
+    1px 0px 0px white, 
+    -1px 0px 0px white, 
+    0px 1px 0px white, 
+    0px -1px 0px white; 
    
   }
 
@@ -31,7 +40,7 @@ h1 {
     width: 50%; 
     border: none;
     height: 3px; 
-    background-color: #ff7e5f;
+    background-color: #000000;
     margin: 20px auto; 
 }
 
@@ -66,13 +75,13 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: flex-start; 
-    height: 20vh; 
+    height: 25vh; 
     margin-top: 0vh; 
     text-align: center,justify; 
 }
 
 .box {
-    background: linear-gradient(to right, #e5ff005e, #00a2ff73); 
+    background: linear-gradient(to right, #f7eded, #00ffbfa8); 
     border-radius: 10px; 
     padding: 15px;
     width: 40%; 
@@ -182,7 +191,7 @@ h1 {
 }
 
 .box_table {
-    background: linear-gradient(to right, #a5fa0894, #660bf888); 
+    background: linear-gradient(to right, #00fdfdb7, #0428f3e8); 
     border-radius: 10px; 
     padding: 20px;
     width: 50%; 
@@ -203,15 +212,20 @@ h1 {
     height: auto; 
     margin-top: 60vh; 
     text-align: center; 
+
+    flex-wrap: wrap;
 }
 
+
+
 .box5 {
-    background: linear-gradient(to right, #808080fb, #04cff39d); 
+    background: linear-gradient(to right, #1100fcaf, #00d9ffa8); 
     border-radius: 10px; 
     padding: 20px;
     width: 65%; 
     text-align: center; 
     height: autopx; 
+
 
 
 }
@@ -276,7 +290,7 @@ text-decoration-prueba {
     font-size: 18px; 
     font-family: 'Times New Roman', Times, serif, sans-serif; 
     line-height: 1.5; 
-    text-align: center; 
+    text-align: left; 
     text-decoration: none; 
 }
 
